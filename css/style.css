@@ -1,0 +1,77 @@
+.container{
+    max-width: 1089px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+/* NAV BAR */
+.logo{  z-index: 3; }
+.header-bg{
+    background-image: url('../img/hero-bg.jpg');
+    max-width: 100%;
+    height: 324px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header-bg::before{
+    content: ' ';
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo-a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Poppins-Bold';
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    position: relative;
+}
+.navigation{
+    display: flex;
+    z-index: 3;
+}
+.nav-list{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.nav-link{
+    color: white;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-family: 'Poppins-SemiBold';
+}
+.burger-bar{
+    display: none;
+    z-index: 9;
+}
+.burger-bar i{
+    z-index: 3;
+    color: white;
+    font-size: 25px;
+    cursor:pointer;
+}
+/* HERO */
+#hero{ 
+    padding-top: 90px; 
+    display: flex; 
+}
+.hero-title{
+    font-size: 42px;
+    color: white;
+    text-transform: uppercase;
+    z-index: 3;
+    font-family: 'Poppins-Extrabold';
+}
+ 
